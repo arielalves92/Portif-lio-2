@@ -7,6 +7,7 @@
 }
 body {
     font-family: "Chakra Petch", sans-serif;
+    color: var(--cor-principal);
     background-color: #89CFF0;
 }
 h1,
@@ -15,6 +16,19 @@ h5 {
     color: var(--cor-secundaria);
     font-weight: 700;
 }
+.lead,
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+  }
+  a,
+  .btn-link:hover {
+    color: var(--cor-principal);
+  }
+  
+  a:hover {
+    color: var(--cor-destaque);
+  }
 
 footer a {
     color: var(--cor-principal);
